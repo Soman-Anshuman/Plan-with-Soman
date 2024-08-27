@@ -12,6 +12,7 @@ body{
     background-image: url(../public/aesthetic-wallpaper.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .container{
