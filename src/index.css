@@ -9,6 +9,9 @@
 body{
     min-height: 100vh;
     font-family: "Poppins", sans-serif;
+    background-image: url(../public/aesthetic-wallpaper.jpg);
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container{
@@ -44,6 +47,7 @@ body{
     border-radius: 10px;
     align-items: center;
     box-shadow: rgb(0,0,0,0.24) 0px 3px 8px;
+    background-color: rgba(211, 211, 211, 0.65);
 }
 
 .image{
@@ -80,7 +84,7 @@ body{
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #b4161b21;
+    background-color: #b4161b32;
 }
 .btn-red:hover{
     background-color: red;
