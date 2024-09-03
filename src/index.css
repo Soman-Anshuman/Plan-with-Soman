@@ -28,6 +28,7 @@ body{
     border: 7px dashed rgb(1,17,160);
     border-radius: 20px;
     padding: 1vh 5vw;
+    background-color: rgba(211, 211, 211, 0.5);
 }
 
 .cards{
