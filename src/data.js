@@ -5,6 +5,7 @@ const data = [
 		info: "Agra is a city in northern India, known for the iconic Taj Mahal, a stunning white marble mausoleum built by Mughal emperor Shah Jahan in memory of his beloved wife. Agra is also home to several other historic and architectural wonders, including Agra Fort and Fatehpur Sikri.",
 		image: "https://cdn.thecodehelp.in/Agra.jpeg",
 		price: "35,758",
+		region: "north",
 	},
 	{
 		id: 2,
@@ -12,6 +13,7 @@ const data = [
 		info: `Jaipur is the capital city of the Indian state of Rajasthan, known for its stunning pink-hued buildings and palaces. The city is also known as the "Pink City" due to the color of many of its buildings. Jaipur is famous for its intricate textiles, colorful handicrafts, and delicious cuisine.`,
 		image: "https://cdn.thecodehelp.in/Jaipur.jpeg",
 		price: "82,560",
+		region: "west",
 	},
 	{
 		id: 3,
@@ -19,6 +21,7 @@ const data = [
 		info: " Goa is a small state on India's western coast, known for its stunning beaches, vibrant nightlife, and Portuguese-influenced architecture. The state is also known for its spicy seafood dishes and unique cultural traditions.",
 		image: "https://cdn.thecodehelp.in/Goa.jpeg",
 		price: "29,695",
+		region: "west",
 	},
 	{
 		id: 4,
@@ -26,6 +29,7 @@ const data = [
 		info: "Varanasi is a holy city in northern India, situated on the banks of the sacred river Ganges. The city is a major pilgrimage site for Hindus and is famous for its ancient temples, winding alleyways, and colorful festivals.",
 		image: "https://cdn.thecodehelp.in/Varanasi.jpeg",
 		price: "31,095",
+		region: "north",
 	},
 	{
 		id: 5,
@@ -33,6 +37,7 @@ const data = [
 		info: "Starting in the colorful port city of Gdańsk, you'll escape the crowds and embrace the understated elegance of ready-for-prime-time Poland for 10 days. With an expert Rick Steves guide at your side, you'll experience mighty Malbork castle, the cobbly-cute village of Toruń, Poland's contemporary capital of Warsaw, the spiritual Jasna Góra Monastery, and charming Kraków — Poland's finest city. In this land of surprises — so trendy and hip, yet steeped in history — there's so much to discover. Join us for the Best of Poland in 10 Days!",
 		image: "https://cdn.thecodehelp.in/Darjeeling.jpeg",
 		price: "78,595",
+		region: "east",
 	},
 	{
 		id: 6,
@@ -40,6 +45,7 @@ const data = [
 		info: "Jaisalmer is a city in the Indian state of Rajasthan, known for its stunning sandstone architecture and its location in the heart of the Thar Desert. The city is home to several impressive palaces and fortresses, as well as unique cultural traditions and handicrafts.",
 		image: "https://cdn.thecodehelp.in/Jaisalmer.jpeg",
 		price: "68,595",
+		region: "west",
 	},
 	{
 		id: 7,
@@ -47,6 +53,15 @@ const data = [
 		info: "Kochi is a port city in the Indian state of Kerala, known for its historic connections to trade and commerce. The city is home to several stunning churches, synagogues, and mosques, as well as a rich culinary tradition that blends Indian, Portuguese, and other influences.",
 		image: "https://cdn.thecodehelp.in/Kochi.jpeg",
 		price: "68,595",
+		region: "south",
+	},
+	{
+		id: 8,
+		name: "Hampi",
+		info: "Hampi is a UNESCO World Heritage Site located in the state of Karnataka, India. It was once the capital of the Vijayanagara Empire and is known for its rich cultural heritage, stunning architectural ruins, and spiritual significance. One of the most significant historical sites in Hampi is the Vitthala Temple, dedicated to Lord Vitthala, an incarnation of Lord Vishnu. In addition, Hampi is home to many traditional dance and music forms, such as the Yakshagana and the Karnatak music.",
+		image: "https://miro.medium.com/v2/resize:fit:1400/0*1Z2nu5rFK8ez5G-w.jpg",
+		price: "58,605",
+		region: "south",
 	},
 ];
 
