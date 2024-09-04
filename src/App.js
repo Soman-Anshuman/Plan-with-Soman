@@ -7,6 +7,7 @@ import data from './data';
 const App = () => {
 
   const [tours, setTours] = useState(data);
+  const [filter, setFilter] = useState('all');
 
   function removeTour(id, name){
     const newTours = tours.filter(tour => tour.id !== id);
@@ -23,6 +24,12 @@ const App = () => {
     });
   }
 
+  const handleFilterChange = (region) => {
+    setFilter(region);
+  };
+
+  const filteredTours = filter === 'all' ? tours : tours.filter(tour => tour.region === filter);
+
   if(tours.length === 0){
     return(
       <div className="refresh">
@@ -36,7 +43,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Tours tours={tours} removeTour={removeTour}></Tours>
+      <Tours tours={filteredTours} removeTour={removeTour} filter={filter} onFilterChange={handleFilterChange}></Tours>
       <ToastContainer />
     </div>
   );
