@@ -70,11 +70,11 @@ body{
 }
 
 .read-more{
-    color: #12b0e8;
+    color: #078aba;
     cursor: pointer;
 }
 .read-more:hover{
-    color: #078aba;
+    color: orange;
     transition: all 0.2s;
 }
 
@@ -123,7 +123,7 @@ body{
 }
 
 .filter-buttons button{
-    padding: 6px 15px;
+    padding: 6px 14px 5px 15px;
     font-size:medium;
     font-weight: bold;
     border: 2px solid rgb(1,17,160);
