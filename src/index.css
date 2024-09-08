@@ -129,7 +129,7 @@ body{
     border: 2px solid rgb(1,17,160);
     background-color: rgba(255, 255, 255, 0.5);
     color: rgb(1,17,160);
-    border-radius: 19px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
