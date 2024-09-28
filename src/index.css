@@ -141,3 +141,37 @@ body{
     background-color: rgb(1,17,160);
     color: white;
 }
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 564px) {
+    .title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 432px) {
+    .container{
+        margin: auto;
+    }
+    .cards{
+        max-width: calc(100% - 1rem);
+    }
+    .card{
+        width: 100%;
+        padding: 0.7rem;
+    }
+    .image{
+        width: 100%;
+    }
+    .tour-info{
+        margin: 5% auto 1%;
+    }
+    .btn-red{
+        width: 100%;
+        padding: 10px 10%;
+    }
+    .filter-buttons{
+        margin: auto 6vh;
+    }
+}
