@@ -9,10 +9,6 @@
 body{
     min-height: 100vh;
     font-family: "Poppins", sans-serif;
-    background-image: url(../public/aesthetic-wallpaper.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .container{
@@ -20,6 +16,15 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+}
+.background{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    z-index: -1;
 }
 
 .title{
@@ -29,6 +34,7 @@ body{
     border-radius: 20px;
     padding: 1vh 5vw;
     background-color: rgba(211, 211, 211, 0.5);
+    text-align: center;
 }
 
 .cards{
@@ -144,15 +150,14 @@ body{
 
 
 /* Media Queries for Responsive Design */
-@media (max-width: 564px) {
-    .title{
-        text-align: center;
-    }
-}
-
 @media (max-width: 432px) {
     .container{
         margin: auto;
+    }
+    .background{
+        height: 1000px;
+        object-fit: cover;
+        top: 0;
     }
     .title{
         margin-bottom: 1.1rem;
