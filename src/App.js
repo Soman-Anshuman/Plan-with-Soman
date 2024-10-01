@@ -33,6 +33,7 @@ const App = () => {
   if(tours.length === 0){
     return(
       <div className="refresh">
+        <img src="aesthetic-wallpaper.jpg" className="background" alt="back" />
         <h2>No Tours Left</h2>
         <button className="btn-white" onClick={() => setTours(data)}>
           Refresh
