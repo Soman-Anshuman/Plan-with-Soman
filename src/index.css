@@ -147,6 +147,12 @@ body{
     background-color: rgb(1,17,160);
     color: white;
 }
+.filter-buttons button.all{
+    order: 1;
+}
+.filter-buttons button.east,.west,.south,.north{
+    order: 1;
+}
 
 
 /* Media Queries for Responsive Design */
@@ -181,5 +187,8 @@ body{
     }
     .filter-buttons{
         margin: auto 6vh;
+    }
+    .filter-buttons button.all{
+        order: 2;
     }
 }
